@@ -1,0 +1,27 @@
+{
+  "name": "jenkins2-api",
+  "version": "0.0.1",
+  "description": "This is wrapper for Jenkins2's API.",
+  "main": "app/jenkins2-api.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "bin": {
+    "jenkins2-api": "app/jenkins2-api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skarlso/jenkins2-api.git"
+  },
+  "keywords": [
+    "jenkins2",
+    "api",
+    "wrapper"
+  ],
+  "author": "Gergely Brautigam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skarlso/jenkins2-api/issues"
+  },
+  "homepage": "https://github.com/Skarlso/jenkins2-api#readme"
+}
