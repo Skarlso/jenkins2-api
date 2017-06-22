@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/Skarlso/jenkins2-api/issues"
   },
-  "homepage": "https://github.com/Skarlso/jenkins2-api#readme"
+  "homepage": "https://github.com/Skarlso/jenkins2-api#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
 }
