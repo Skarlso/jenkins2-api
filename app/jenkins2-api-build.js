@@ -4,8 +4,8 @@ var program = require('commander')
 var api = require('../lib/api')
 
 program
-  .option('-j, --job-name', 'Name of the job')
-  .option('-b, --build-number', 'Number of the build')
+  .option('-j, --job-name [NAME]', 'Name of the job')
+  .option('-b, --build-number [NUMBER]', 'Number of the build')
   .parse(process.argv)
 
 var args = program.args
